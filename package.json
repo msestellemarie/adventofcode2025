@@ -1,12 +1,9 @@
 {
   "name": "adventofcode2025",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "solutions.js",
   "type": "module",
   "repository": "https://github.com/msestellemarie/adventofcode2025.git",
   "author": "Estelle Corey <emso18@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "solutions": "yarn && node index.js"
-  }
+  "license": "MIT"
 }

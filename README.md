@@ -1,3 +1,3 @@
-# adventofcode2025
+# Advent of Code 2025
 
-Run `yarn run solutions` to see answers by day
+Run `node solutions.js` to see answers by day
