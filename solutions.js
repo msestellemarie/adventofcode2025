@@ -2,6 +2,7 @@ import { readFileSync } from "node:fs";
 import { puzzle1, puzzle2 } from "./day1.js";
 import { puzzle3, puzzle4 } from "./day2.js";
 import { puzzle5, puzzle6 } from "./day3.js";
+import { puzzle7, puzzle8 } from "./day4.js";
 
 const txtToArr = (filename, char) =>
   readFileSync(filename).toString().split(char);
@@ -20,3 +21,8 @@ console.log("Day 2, Puzzle 2: ", puzzle4(puzzleArr2));
 const puzzleArr3 = txtToArr("day3.txt", "\n");
 console.log("Day 3, Puzzle 1: ", puzzle5(puzzleArr3));
 console.log("Day 3, Puzzle 2: ", puzzle6(puzzleArr3));
+
+// Day 4
+const puzzleArr4 = txtToArr("day4.txt", "\n");
+console.log("Day 4, Puzzle 1: ", puzzle7(puzzleArr4));
+console.log("Day 4, Puzzle 2: ", puzzle8(puzzleArr4));
